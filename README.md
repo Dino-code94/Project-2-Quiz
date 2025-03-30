@@ -59,3 +59,12 @@ The color scheme used in the quiz is inspired by **Green Day’s branding**, wit
   - **Primary Text**: `#fff` (white) – Used for the body text and quiz content for high contrast and readability.
   - **Secondary Text**: `#b0b0b0` – A softer gray used for secondary text like paragraph content, ensuring the main text stands out.
   - **Feedback Text**: `#f0f0f0` – Light gray used for the feedback messages after each question.
+
+### Button Hover Effect:
+- On hover, the green buttons transition to a darker shade (`#007f2a`) to give users feedback when interacting with the buttons.
+
+### Responsive Design:
+- The quiz has been designed to adjust automatically on screens of all sizes, with specific optimizations for:
+  - **Mobile devices** (screen width less than 480px)
+  - **Tablets** (screen width less than 768px)
+  - **Desktops** (larger screens)
