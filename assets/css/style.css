@@ -1,7 +1,10 @@
+/* General body and font settings */
 body {
   font-family: 'Playpen Sans', sans-serif;
   background-color: #181818;
+  /* Dark background to match Green Day's style */
   color: #fff;
+  /* White text for better contrast */
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,10 +13,12 @@ body {
   height: 100vh;
 }
 
+/* Container for the app */
 .app {
   text-align: center;
   padding: 20px;
   background-color: #2e2e2e;
+  /* Slightly lighter background for the quiz container */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   max-width: 800px;
@@ -24,10 +29,12 @@ body {
   margin-top: 20px;
 }
 
+/* Welcome message styling */
 #welcome-message {
   font-size: 18px;
   line-height: 1.6;
   color: #d0d0d0;
+  /* Light gray text */
   margin-bottom: 20px;
 }
 
@@ -35,21 +42,27 @@ body {
   font-size: 36px;
   font-weight: bold;
   color: #00b140;
+  /* Green Day's iconic color */
   margin-bottom: 10px;
 }
 
+/* Paragraph Styling */
 #welcome-message p {
   font-size: 16px;
   color: #b0b0b0;
+  /* Lighter gray for the paragraph text */
   max-width: 600px;
   margin: 0 auto 20px;
   padding: 0 20px;
   text-align: justify;
+  /* Makes the text more readable */
 }
 
+/* Start button styling */
 #start-btn {
   padding: 10px 20px;
   background-color: #00b140;
+  /* Green Day Green */
   color: white;
   border: none;
   border-radius: 5px;
@@ -62,12 +75,15 @@ body {
 
 #start-btn:hover {
   background-color: #007f2a;
+  /* Darker green on hover */
 }
 
+/* Styling for the quiz content */
 #quiz-content {
   display: none;
 }
 
+/* Question styling */
 #question {
   font-size: 20px;
   color: #ffffff;
@@ -81,6 +97,7 @@ body {
   font-weight: bold;
 }
 
+/* Input field styling */
 input[type="text"] {
   padding: 10px;
   font-size: 16px;
@@ -95,9 +112,11 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  border-color: #007f2a; 
+  border-color: #007f2a;
+  /* Darker green on focus */
 }
 
+/* Button styling for the quiz */
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -113,10 +132,12 @@ button:hover {
   background-color: #007f2a;
 }
 
+/* Styling for next button */
 #next-btn {
   display: none;
 }
 
+/* Final results styling */
 #quiz-content {
   display: none;
 }
@@ -133,6 +154,7 @@ button:hover {
   margin-top: 10px;
 }
 
+/* Responsive design for tablets and phones */
 @media (max-width: 768px) {
   .app {
     padding: 15px;
