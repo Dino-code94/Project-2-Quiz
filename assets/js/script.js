@@ -105,3 +105,8 @@ function showQuestion() {
   submitButton.textContent = "Submit";
   submitButton.onclick = checkAnswer;
   questionContainer.appendChild(submitButton);
+
+    // Hide feedback and next button until the question is answered
+    document.getElementById("feedback").textContent = "";
+    document.getElementById("next-btn").style.display = "none";
+  }
