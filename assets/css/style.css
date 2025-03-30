@@ -132,3 +132,55 @@ button:hover {
   color: #d0d0d0;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .app {
+    padding: 15px;
+    width: 100%;
+  }
+
+  #start-btn,
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  #welcome-message h1 {
+    font-size: 30px;
+  }
+
+  #question {
+    font-size: 18px;
+  }
+
+  #quiz-content {
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  #welcome-message h1 {
+    font-size: 26px;
+  }
+
+  #welcome-message p {
+    font-size: 14px;
+  }
+
+  #question {
+    font-size: 16px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
