@@ -42,9 +42,26 @@ const questions = [
 ];
 
 function startQuiz() {
-  
+
   document.getElementById("welcome-message").style.display = "none";
   document.getElementById("quiz-content").style.display = "block";
 
   showQuestion();
 }
+
+function checkAnswer() {
+  const userAnswer = document.getElementById("answer").value.trim();
+  const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+
+  if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+    document.getElementById("feedback").textContent = "Correct!";
+    score++;
+  } else {
+    document.getElementById("feedback").textContent = `Incorrect! The correct answer is: ${correctAnswer}`;
+  }
+
+  document.getElementById("next-btn").style.display = "inline-block";
+  document.getElementById("answer").disabled = true;
+  document.querySelector("button").disabled = true;
+}
+
