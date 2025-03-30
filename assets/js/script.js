@@ -82,3 +82,13 @@ function nextQuestion() {
   document.getElementById("next-btn").style.display = "none";
 }
 
+
+
+function showQuestion() {
+  
+  const questionContainer = document.getElementById("question");
+  questionContainer.innerHTML = '';  
+
+  
+  const question = questions[currentQuestionIndex];
+  questionContainer.innerHTML = `<p>${question.question}</p>`;
