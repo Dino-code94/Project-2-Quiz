@@ -75,4 +75,4 @@ Using the "Am I Responsive" website, here is the example of the site showig resp
 
 | Green day Quiz |
 | :---: | 
-| ![screenshot]() | 
+| ![Image](https://github.com/user-attachments/assets/d8cb513f-35f1-48c5-86f4-be0568347fb9) | 
