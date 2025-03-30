@@ -110,3 +110,13 @@ function showQuestion() {
     document.getElementById("feedback").textContent = "";
     document.getElementById("next-btn").style.display = "none";
   }
+
+  
+function showResults() {
+  const quizContainer = document.querySelector(".quiz-container");
+  quizContainer.innerHTML = `
+    <h1>Quiz Finished!</h1>
+    <p>Your score: ${score} out of ${questions.length}</p>
+    <button onclick="restartQuiz()">Play Again</button>
+  `;
+}
