@@ -65,3 +65,20 @@ function checkAnswer() {
   document.querySelector("button").disabled = true;
 }
 
+function nextQuestion() {
+  currentQuestionIndex++;
+
+  if (currentQuestionIndex < questions.length) {
+    showQuestion();
+  } else {
+    showResults();
+  }
+
+  
+  document.getElementById("answer").value = "";
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("answer").disabled = false;
+  document.querySelector("button").disabled = false;
+  document.getElementById("next-btn").style.display = "none";
+}
+
