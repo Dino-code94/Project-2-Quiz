@@ -1,3 +1,4 @@
+// Question setup with 10 questions
 const questions = [
   {
     question: "What is the title of Green Day's album released in 2004?",
@@ -41,14 +42,20 @@ const questions = [
   }
 ];
 
-function startQuiz() {
+let currentQuestionIndex = 0;
+let score = 0;
 
+// Function to start the quiz after the welcome message
+function startQuiz() {
+  // Hide the welcome message and show the quiz content
   document.getElementById("welcome-message").style.display = "none";
   document.getElementById("quiz-content").style.display = "block";
 
+  // Show the first question
   showQuestion();
 }
 
+// Function to check the user's answer
 function checkAnswer() {
   const userAnswer = document.getElementById("answer").value.trim();
   const correctAnswer = questions[currentQuestionIndex].correctAnswer;
@@ -65,6 +72,7 @@ function checkAnswer() {
   document.querySelector("button").disabled = true;
 }
 
+// Function to move to the next question
 function nextQuestion() {
   currentQuestionIndex++;
 
@@ -74,7 +82,7 @@ function nextQuestion() {
     showResults();
   }
 
-
+  // Reset the input and feedback for the next question
   document.getElementById("answer").value = "";
   document.getElementById("feedback").textContent = "";
   document.getElementById("answer").disabled = false;
@@ -82,14 +90,13 @@ function nextQuestion() {
   document.getElementById("next-btn").style.display = "none";
 }
 
-
-
+// Function to display the current question
 function showQuestion() {
-
+  // Clear previous question content
   const questionContainer = document.getElementById("question");
-  questionContainer.innerHTML = '';
+  questionContainer.innerHTML = '';  // Clear any previous question
 
-
+  // Display the current question
   const question = questions[currentQuestionIndex];
   questionContainer.innerHTML = `<p>${question.question}</p>`;
 
@@ -111,7 +118,7 @@ function showQuestion() {
   document.getElementById("next-btn").style.display = "none";
 }
 
-
+// Function to show the final score and display the "Play Again" button
 function showResults() {
   const quizContainer = document.querySelector(".quiz-container");
   quizContainer.innerHTML = `
@@ -121,12 +128,13 @@ function showResults() {
   `;
 }
 
+// Function to restart the quiz
 function restartQuiz() {
-  
+  // Reset the score and question index
   score = 0;
   currentQuestionIndex = 0;
-  
-  
+
+  // Rebuild the quiz container with the first question
   const quizContainer = document.querySelector(".quiz-container");
   quizContainer.innerHTML = `
     <div id="welcome-message">
@@ -141,6 +149,6 @@ function restartQuiz() {
     </div>
   `;
 
-  
+  // Start the quiz with the first question
   showQuestion();
 }
