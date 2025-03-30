@@ -67,3 +67,16 @@ body {
 #quiz-content {
   display: none;
 }
+
+#question {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#feedback {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #f0f0f0;
+  font-weight: bold;
+}
