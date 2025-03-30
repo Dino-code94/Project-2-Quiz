@@ -92,3 +92,16 @@ function showQuestion() {
   
   const question = questions[currentQuestionIndex];
   questionContainer.innerHTML = `<p>${question.question}</p>`;
+
+  // Create the input field dynamically
+  const inputField = document.createElement("input");
+  inputField.type = "text";
+  inputField.id = "answer";
+  inputField.placeholder = "Your answer here";
+  questionContainer.appendChild(inputField);
+
+  // Create the submit button dynamically
+  const submitButton = document.createElement("button");
+  submitButton.textContent = "Submit";
+  submitButton.onclick = checkAnswer;
+  questionContainer.appendChild(submitButton);
