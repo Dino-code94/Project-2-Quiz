@@ -48,3 +48,14 @@ The typography used for the quiz is based on the **Playpen Sans** font family, w
 and legible appearance. This font is used for the body text and the quiz questions to ensure clarity and readability across different screen sizes. 
 
 For headings and important titles, a **bold** style has been applied to make them stand out and draw attention to key elements.
+
+## Color Scheme
+
+The color scheme used in the quiz is inspired by **Green Day’s branding**, with bold green tones and dark backgrounds that align with the punk rock aesthetic of the band.
+
+- **Primary Color (Green)**: `#00b140` – This green color represents Green Day’s iconic branding. It is used for buttons, links, and key accents throughout the quiz.
+- **Secondary Color (Dark Background)**: `#181818` – A dark background that matches the edgy, rock-and-roll style of the band.
+- **Text Colors**:
+  - **Primary Text**: `#fff` (white) – Used for the body text and quiz content for high contrast and readability.
+  - **Secondary Text**: `#b0b0b0` – A softer gray used for secondary text like paragraph content, ensuring the main text stands out.
+  - **Feedback Text**: `#f0f0f0` – Light gray used for the feedback messages after each question.
