@@ -41,3 +41,10 @@ The quiz is responsive and designed to work seamlessly on all devices, including
 4. **Mobile and Desktop Optimization**:
    - The quiz adapts well to smaller screens like tablets and smartphones, with the layout adjusting automatically.
    - Buttons and text sizes are adjusted for better readability on all devices.
+
+## Typography
+
+The typography used for the quiz is based on the **Playpen Sans** font family, which provides a clean, modern, 
+and legible appearance. This font is used for the body text and the quiz questions to ensure clarity and readability across different screen sizes. 
+
+For headings and important titles, a **bold** style has been applied to make them stand out and draw attention to key elements.
