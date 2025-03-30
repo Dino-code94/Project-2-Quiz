@@ -95,7 +95,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org/) to v
 
 | Report | Screenshot |
 | :---: | :---: |
-| index.html | ![screenshot]() |
+| index.html | ![screenshot](assets/documantation/htmlvalidation.png) |
 
 ### CSS
 
@@ -103,7 +103,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Report | Screenshot |
 | :---: | :---: |
-| style.css | ![screenshot]() |
+| style.css | ![screenshot](assets/documantation/cssvalidation.png) |
 
 ### JavaScript
 
@@ -111,4 +111,4 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
 
 | Report | Screenshot |
 | :---: | :---: |
-| script.js | ![screenshot]() |
+| script.js | ![screenshot](assets/documantation/JSvalidation.png) |
