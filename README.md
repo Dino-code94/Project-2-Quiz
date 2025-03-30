@@ -68,3 +68,11 @@ The color scheme used in the quiz is inspired by **Green Day’s branding**, wit
   - **Mobile devices** (screen width less than 480px)
   - **Tablets** (screen width less than 768px)
   - **Desktops** (larger screens)
+
+## Mockup screenshot
+
+Using the "Am I Responsive" website, here is the example of the site showig responsivity.
+
+| Green day Quiz |
+| :---: | 
+| ![screenshot]() | 
