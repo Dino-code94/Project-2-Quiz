@@ -40,3 +40,11 @@ const questions = [
     correctAnswer: "American Idiot"
   }
 ];
+
+function startQuiz() {
+  
+  document.getElementById("welcome-message").style.display = "none";
+  document.getElementById("quiz-content").style.display = "block";
+
+  showQuestion();
+}
