@@ -76,3 +76,11 @@ Using the "Am I Responsive" website, here is the example of the site showig resp
 | Green day Quiz |
 | :---: | 
 | ![Image](https://github.com/user-attachments/assets/d8cb513f-35f1-48c5-86f4-be0568347fb9) | 
+
+## Tools & Technologies
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for main structure and content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) layout and desing.
+- [GIT](https://git-scm.com) version control system (Git add , Git commit and Git push).
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) used for responsive layout
+- [GitHub](https://github.com) used for - create, change, merge, and collaborate with files and code.
+- [GutHub Pages](https://pages.github.com) used for hosting the page.
