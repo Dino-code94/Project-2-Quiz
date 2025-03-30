@@ -84,3 +84,31 @@ Using the "Am I Responsive" website, here is the example of the site showig resp
 - [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) used for responsive layout
 - [GitHub](https://github.com) used for - create, change, merge, and collaborate with files and code.
 - [GutHub Pages](https://pages.github.com) used for hosting the page.
+
+## Testing
+
+## Code Validation
+
+### HTML
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org/) to validate HTML
+
+| Report | Screenshot |
+| :---: | :---: |
+| index.html | ![screenshot]() |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files.
+
+| Report | Screenshot |
+| :---: | :---: |
+| style.css | ![screenshot]() |
+
+### JavaScript
+
+Bellow is the recommended [JSHint](https://jshint.com/) results
+
+| Report | Screenshot |
+| :---: | :---: |
+| script.js | ![screenshot]() |
