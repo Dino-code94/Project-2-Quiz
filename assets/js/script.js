@@ -74,7 +74,7 @@ function nextQuestion() {
     showResults();
   }
 
-  
+
   document.getElementById("answer").value = "";
   document.getElementById("feedback").textContent = "";
   document.getElementById("answer").disabled = false;
@@ -85,11 +85,11 @@ function nextQuestion() {
 
 
 function showQuestion() {
-  
-  const questionContainer = document.getElementById("question");
-  questionContainer.innerHTML = '';  
 
-  
+  const questionContainer = document.getElementById("question");
+  questionContainer.innerHTML = '';
+
+
   const question = questions[currentQuestionIndex];
   questionContainer.innerHTML = `<p>${question.question}</p>`;
 
@@ -106,12 +106,12 @@ function showQuestion() {
   submitButton.onclick = checkAnswer;
   questionContainer.appendChild(submitButton);
 
-    // Hide feedback and next button until the question is answered
-    document.getElementById("feedback").textContent = "";
-    document.getElementById("next-btn").style.display = "none";
-  }
+  // Hide feedback and next button until the question is answered
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("next-btn").style.display = "none";
+}
 
-  
+
 function showResults() {
   const quizContainer = document.querySelector(".quiz-container");
   quizContainer.innerHTML = `
@@ -119,4 +119,28 @@ function showResults() {
     <p>Your score: ${score} out of ${questions.length}</p>
     <button onclick="restartQuiz()">Play Again</button>
   `;
+}
+
+function restartQuiz() {
+  
+  score = 0;
+  currentQuestionIndex = 0;
+  
+  
+  const quizContainer = document.querySelector(".quiz-container");
+  quizContainer.innerHTML = `
+    <div id="welcome-message">
+      <h1>Welcome to the Green Day Quiz!</h1>
+      <p>Test your knowledge about Green Day's music and history!</p>
+      <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div id="quiz-content" style="display:none;">
+      <div id="question"></div>
+      <p id="feedback"></p>
+      <button id="next-btn" style="display:none;" onclick="nextQuestion()">Next Question</button>
+    </div>
+  `;
+
+  
+  showQuestion();
 }
