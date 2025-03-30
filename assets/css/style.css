@@ -1,0 +1,11 @@
+body {
+  font-family: 'Playpen Sans', sans-serif;
+  background-color: #181818; 
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
