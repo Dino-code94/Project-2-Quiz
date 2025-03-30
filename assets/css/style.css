@@ -112,3 +112,23 @@ button {
 button:hover {
   background-color: #007f2a;
 }
+
+#next-btn {
+  display: none;
+}
+
+#quiz-content {
+  display: none;
+}
+
+#quiz-content h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#quiz-content p {
+  font-size: 24px;
+  color: #d0d0d0;
+  margin-top: 10px;
+}
