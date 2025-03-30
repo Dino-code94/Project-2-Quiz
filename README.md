@@ -122,3 +122,12 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
    - I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
    
    - I have tested all the links on the website.
+## Contributing
+
+   - If you’d like to contribute to this project, feel free to fork the repository and submit a pull request. We welcome any improvements, bug fixes, or feature suggestions.
+   
+## Credits
+
+### Content
+
+  - All of the content was my personal knowledge about Green day , with little online research, google, youtube, and Green day pages.
